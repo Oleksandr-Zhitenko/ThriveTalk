@@ -8,6 +8,14 @@
     padding: 20px;
   }
 
+  &__link {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   &__photo {
     background-image: url(../images/some-info__photo.png);
     height: 380px;

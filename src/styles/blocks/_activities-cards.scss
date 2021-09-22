@@ -15,6 +15,13 @@
 
   &__activity {
     padding: 55px 37px 37px 85px;
+    transition: transform 0.2s linear,
+    box-shadow 0.2s linear;
+
+    &:hover {
+      transform: translateY(10%);
+      box-shadow: 5px 5px 0 0 #dcdddf;
+    }
 
     @media (min-width: 320px) and (max-width: 1024px) {
       padding: 25px;

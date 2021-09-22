@@ -25,6 +25,11 @@
     padding: 126px 104px;
     display: flex;
     position: relative;
+    transition: transform 0.3s linear;
+
+    &:hover {
+      transform: scale(0.95);
+    }
 
     &::before {
       content: "";
